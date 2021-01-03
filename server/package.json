@@ -1,0 +1,49 @@
+{
+  "name": "oop-project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "nodemon --exec ts-node src/index.ts --delay 1500ms"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alxford45/oop-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alxford45/oop-project/issues"
+  },
+  "homepage": "https://github.com/alxford45/oop-project#readme",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.3.2",
+    "apollo-server-express": "^2.4.8",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "graphql": "^14.1.1",
+    "pg": "^7.9.0",
+    "reflect-metadata": "^0.1.13",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "typeorm": "^0.2.15",
+    "typescript": "^3.2.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.4",
+    "@types/dotenv": "^6.1.0",
+    "@types/express": "^4.16.1",
+    "@types/express-session": "^1.15.12",
+    "@types/graphql": "^14.0.7",
+    "@types/node": "^11.11.4",
+    "@types/request": "^2.48.1",
+    "@types/request-promise": "^4.1.42",
+    "graphql-tag": "^2.10.1",
+    "nodemon": "^1.18.9",
+    "ts-node": "^8.0.3",
+    "tslint": "^5.12.1"
+  }
+}

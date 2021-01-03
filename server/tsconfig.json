@@ -1,0 +1,28 @@
+// Typescript configuration file copied from tsconfig.json example in benawad/graphql-typescript-stripe-example repo
+//
+// Source: https://github.com/benawad/graphql-typescript-stripe-example/blob/master/server/tsconfig.json
+// Version: commit 5b5a741 on Oct 2, 2018
+// Accessed: March 2019
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["dom", "es6", "es2017", "esnext.asynciterable"],
+    "sourceMap": true,
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "include": ["./src/**/*"]
+}
